@@ -1,0 +1,152 @@
+.container {
+	background color: lightsalmon;
+	letter-spacing: 5px;
+	font-size: 70px;
+    line-height: 60px;
+    margin: 50px;
+    padding:  30px;
+
+}
+
+.box{
+	width:  90px;
+	height: 90px;
+	border: 2px solid black;
+	margin: 200x;
+	padding: 5px;
+}
+
+.div1{
+	postition: static;
+}
+
+.div2{
+	position: relative;
+	left: 400px;
+	top: 180px;
+}
+
+.div3{
+	width:  90px;
+	height: 60px;
+	position: absolute;
+	top: 90px;
+	left: 40px;
+}
+
+.div4{
+	width:  230px;
+	height: 300px;
+	position: fixed;
+	font-size: 50px;
+	right: 0;
+	left: 70px;
+	margin: 0;
+}
+
+.div5{
+	width:  260px;
+	height: 150px;
+	position: fixed;
+	font-size: 33px;
+	right: 0;
+	left: 400px;
+	margin: 0;
+	top: 300px;
+}
+
+.div6{
+	width:  260px;
+	height: 70px;
+	position: fixed;
+	font-size: 20px;
+	right: 0;
+	left: 600px;
+	margin: 0;
+	top: 600px;
+}
+
+.div7{
+	width:  260px;
+	height: 50px;
+	position: fixed;
+	font-size: 15px;
+	right: 0;
+	left: 1000px;
+	margin: 0;
+	top: 340px;
+}
+
+.div8{
+	width:  300px;
+	height: 250px;
+	position: fixed;
+	font-size: 50px;
+	right: 0;
+	left: 800px;
+	margin: 0;
+	top: 700px;
+}
+
+.container-img{
+	width:  1000px;
+	position: fixed;
+	right: 0;
+	left: 800px;
+	margin: 0;
+	top: 60px;
+}
+
+
+
+
+.spacer{
+	height: 200px;
+}
+
+.transform-div{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	font-size: 24px;
+}
+
+.rotate{
+	transform: rotate(45deg);
+}
+
+.translateY{
+	transform: translateY(-100px);
+}
+
+.skewX{
+	transform: skewX(-30deg);
+}
+
+.scale{
+	transform: scale(1);
+	transition-duration: 300ms;
+}
+
+.scale: hover{
+	transform: scale(2);
+}
+
+.blur{
+	filter: blur(3px);
+}
+
+.grayscale{
+	filter: grayscale(1);
+}
+
+.invert{
+	filter: invert(1);
+}
+
+.drop-shadow{
+	filter: drop-shadow(1px 1px 20px rgba(0,0,0,0,6));
+}
+
